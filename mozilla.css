@@ -1,0 +1,244 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    position: relative;
+}
+body{
+    overflow-x: hidden;
+}
+nav.navbar{
+    padding-left: 100px;
+    background-color: #3BBA99;
+    width: 100%;
+    height: 70px;
+    text-align: justify;
+    font-weight: bold;
+}
+
+.navItems{
+    position: relative;
+    top: 15px;
+    padding-top: 20px;
+}
+
+.navbar{
+    position: relative;
+}
+.pic{
+    vertical-align: top;
+    padding: 10px;
+    float: left;
+}
+.nav-link{
+    display: inline-block;
+    font-weight: bold;
+}
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    color: white;
+}
+li{
+    float: left;
+}
+li a{
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    padding: 10px 20px;
+    text-decoration: none;
+}
+.container{
+    background: linear-gradient(rgb(0,0,0,0.3), rgb(0,0,0,0.2)), url("images/mozilla-bvdu.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+    padding: 80px;
+}
+div.grpimg h1{
+    font-size: 4.5rem;
+    font-weight: 300;
+    color: white;
+}
+.psg{
+    color: white;
+    max-width: 800px;
+    margin: auto;
+    margin-bottom: 20px;
+}
+.container2{
+    display: flex;
+    flex-direction: row ;
+    margin-top: 25px;
+    margin-left: 128px;
+    margin-bottom: 30px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.gif{
+    display: inline-block;
+    height: 50%;
+    vertical-align: top;
+    /* padding-left: 80px; */
+    text-align: center;
+    padding-top: 20px;
+    padding-left: 0.9375rem;
+    padding-right: 0.9375rem;
+}
+.video{
+    display: inline-block;
+    width: 55%;
+    height: 20%;
+}
+.text{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    right: 100px;
+    padding-top: 38px;
+    padding-right: 0px;
+}
+div.text h2{
+    /* margin: 20px 0 10px 0; */
+    color: #000000;
+    display: inline;
+    font-weight: 200;
+    font-size: 2.8rem;
+}
+p{
+    display: inline;
+}
+
+.about{
+    background-color: #f1f1f1;
+}
+.row{
+    display: flex;
+    flex-direction: row;
+    padding-left: 0;
+}
+.container3{
+    display: flex;
+    flex-direction: row;
+    padding-left: 250px;
+    text-align: center;
+    justify-content: center;
+    position: relative;
+    right: 60px;
+}
+
+.pic2{
+    display: block;
+    height: 270px;
+    padding-top: 30px;
+    padding-right: 40px;
+    /* width: 120px; */
+}
+img{
+    vertical-align: middle;
+}
+.text2{
+    display: flex;
+    flex-direction: column;
+    padding-top: 40px;
+}
+div.text2 h2{
+    color: #4d4f53;
+    display: inline;
+    padding-left: 0%;
+    font-weight: 500;
+    font-size: 2rem;
+}
+div.text2 p{
+    padding-top: 30px;
+    font-size: 19px;
+    font-weight: 1rem;
+}
+.container4{
+    padding-top: 50px;
+    text-align: center;
+}
+.text3 h1{
+    padding-bottom: 10px;
+    line-height: 1.2;
+    font-size: 2.8rem;
+    font-weight: 200;
+}
+
+.text3 h3{
+    padding-top: 10px;
+    font-size: 1.2rem;
+    font-weight: 400;
+}
+.btn{
+    display: inline-block;
+    width: 19%;
+    height: 80%;
+    color: rgb(59, 186, 153);
+    margin-top: 37px;
+    border: 2px solid rgb(59, 186, 153);
+    padding: 11px;
+    font-size: 1.6rem;
+    font-weight: bold;
+}
+.btn:hover{
+    color: white;
+    background-color: #3BBA99;
+}
+.footer{
+    margin-top: 20px;
+    width: 100%;
+    padding: 70px 21%;
+    background: #4D4F53;
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+.footer div{
+    text-align: center;
+}
+.col-2{
+    flex-grow: 1;
+    color: #3BBA99;
+}
+.footer div h3{
+    font-weight: 300;
+    margin-bottom: 15px;
+    letter-spacing: 1px;
+}
+.col-2 p{
+    font-weight: 400;
+    color: #3BBA99;
+    position: relative;
+    right: 40px;
+    top: 2px;
+    /* float: left; */
+    text-align: center;
+    /* padding-right: 50px; */
+    /* margin-bottom: 2px; */
+}
+.col-1{
+    padding-right: 80px;
+}
+.col-1 a{
+    display: block;
+    text-decoration: none;
+    color: #efefef;
+    margin-bottom: 10px;
+}
+.col-3 p{
+    color: #3BBA99;
+}
+.social{
+    margin-top: 17px;
+}
+.social i{
+    font-size: 22px;
+    margin: 10px;
+    cursor: pointer;
+}
+.social a{
+    color: white;
+}
